@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profiles/profiles"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#323840",
+    "navigationBarTitleText": "Aragaki Yui",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#66ccff",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#323840",
+    "selectedColor": "#ccc",
+    "backgroundColor": "#fefefe",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icons/image1.png",
+      "selectedIconPath": "images/icons/image1.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/icons/image4.png",
+      "selectedIconPath": "images/icons/image4.png"
+    }, {
+      "pagePath": "pages/profiles/profiles",
+      "text": "我的",
+      "iconPath": "images/icons/image8.png",
+      "selectedIconPath": "images/icons/image8.png"
+    }]
+  }
+}
