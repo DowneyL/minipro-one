@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/profiles/profiles"
+    "pages/profiles/profiles",
+    "pages/calculator/calculator"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -33,6 +34,11 @@
       "text": "我的",
       "iconPath": "images/icons/image8.png",
       "selectedIconPath": "images/icons/image8.png"
+    }, {
+      "pagePath": "pages/calculator/calculator",
+      "text": "计算",
+      "iconPath": "images/icons/image9.png",
+      "selectedIconPath": "images/icons/image9.png"
     }]
   }
 }

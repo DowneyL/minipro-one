@@ -1,0 +1,6 @@
+<view class="main">
+  <view class="header">
+    <view class="screen">0</view>
+  </view>
+  <view class="body">2222</view>
+</view>
