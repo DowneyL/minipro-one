@@ -33,6 +33,17 @@ App({
       }
     })
   },
+
+  // 小程序显示
+  onShow: function () {
+    console.log('show');
+  },
+  onHide: function () {
+    console.log('hide');
+  },
+  onError: function () {
+    console.log('Error');
+  },
   globalData: {
     userInfo: null
   }

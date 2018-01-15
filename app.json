@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/profiles/profiles",
-    "pages/calculator/calculator"
+    "pages/calculator/calculator",
+    "pages/test/test"
   ],
   "window":{
     "backgroundTextStyle":"light",
