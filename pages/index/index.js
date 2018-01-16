@@ -1,13 +1,15 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const common = require('../../common.js')
 
 Page({
   data: {
+    userInfo: app.globalData.userInfo,
     motto: 'Hello AragakiYui',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    // userInfo: {},
+    // hasUserInfo: false,
+    // canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   bindViewTap: function() {
@@ -21,6 +23,8 @@ Page({
     })
   },
   onLoad: function () {
+    common.say()
+    common.eat()
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
