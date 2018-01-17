@@ -14,4 +14,7 @@
   <view class="usermotto">
     <text class="user-motto" bindtap='showTest'>{{motto}}</text>
   </view>
+  <view>
+    <text bindtap="showForumList">查看论坛列表</text>
+  </view>
 </view>

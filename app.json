@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/profiles/profiles",
     "pages/calculator/calculator",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/forumlist/forumlist"
   ],
   "window":{
     "backgroundTextStyle":"light",

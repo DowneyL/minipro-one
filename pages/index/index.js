@@ -22,9 +22,25 @@ Page({
       url: '../test/test',
     })
   },
+  showForumList: function () {
+    wx.navigateTo({
+      url: '../forumlist/forumlist',
+    })
+  },
   onLoad: function () {
     common.say()
     common.eat()
+    wx.request({
+      url: 'http://www.mouldbbs.com/api/mobile/?module=login&loginsubmit=yes&cookietime=1',
+      data: {
+        username: 'admin', 
+        password: 'Admin_2016'
+      },
+      success: function(res) {
+        console.log(res.data)
+      }
+    })
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
